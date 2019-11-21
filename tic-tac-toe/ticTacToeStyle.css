@@ -1,0 +1,21 @@
+.square {
+   height: 100px;
+   width: 100px;
+   text-align: center;
+   font-size: 24pt;
+   font-weight: bold;
+   font-family: Verdana;
+   
+}
+
+.center {
+   margin-left: 45%;
+   color: brown;
+   font-size: 24pt;
+
+}
+
+.square:hover {
+   background-color: rgb(158, 247, 217);
+}
+
