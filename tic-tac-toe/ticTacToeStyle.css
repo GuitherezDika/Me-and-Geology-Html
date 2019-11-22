@@ -1,21 +1,49 @@
-.square {
+/* *{
+   margin: 0;
+   padding: 0;
+}
+
+.centerTic {
+   margin-left: 30%;
+   color: #a5512a;
+   font-size: 22pt;
+   
+}
+.squareTic {
    height: 100px;
    width: 100px;
    text-align: center;
-   font-size: 24pt;
+   font-size: 34pt;
    font-weight: bold;
-   font-family: Verdana;
-   
+   font-family: Verdana;   
 }
 
-.center {
-   margin-left: 45%;
-   color: brown;
-   font-size: 24pt;
 
-}
-
-.square:hover {
+.squareTic:hover {
    background-color: rgb(158, 247, 217);
 }
+ */
 
+* {
+margin: 0;
+padding: 0;
+}
+
+.centerTic {
+   margin-left: 30%;
+   color: brown;
+   font-size: 22px;
+}
+
+.squareTic {
+   height: 100px;
+   width: 100px;
+   text-align: center;
+   font-size: 34px;
+   font-weight: bold;
+font-family: verdana;
+}
+
+.squareTic:hover {
+   background-color: rgb(177, 247, 247)
+}

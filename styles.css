@@ -29,7 +29,7 @@ body {
 .nav-link-wrapper {
    height: 22px;
    border-bottom: 1px solid transparent;
-   transition: border-bootom 0.5s;
+   /* transition: border-bootom 0.5s; */
 }
 
 .nav-link-wrapper a{

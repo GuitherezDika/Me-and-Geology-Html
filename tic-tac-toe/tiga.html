@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="./ticTacToeStyle.css" >
+      <link rel="stylesheet" href="../styles.css" >
+      <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+      
+      <title>Percobaan</title>
+   </head>
+   <body onload="startGame()">
+      <div class="container">
+         <div class="nav-wrapper">
+            <div class="left-side">
+
+               <div class="nav-link-wrapper ">
+                  <a href="../index.html">Home</a>
+               </div>
+               <div class="nav-link-wrapper">
+                  <a href="../about.html">About</a>
+               </div>
+               <div class="nav-link-wrapper">
+                  <a href="../playFinger/playFinger.html">PlayFinger</a>
+               </div>
+               <div class="nav-link-wrapper active-nav-link">
+                  <a href="./tiga.html">Tic-Tac-Toe</a>
+               </div>
+            </div>
+
+            <div class="right-side ">
+               <div class="brand">
+                  <div>G. Mahardika S.</div>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="content-wrapper">
+            <!--  -->
+            <div class="centerTic">
+                  <h1>Tic-Tac-Toe</h1>
+               <div id="message">messages will go there</div>
+               <table border="1">
+                  <tr>
+                        <td id="s1" class='squareTic' onclick="changeTableData(this)" ></td>
+                        <td id="s2" class='squareTic' onclick="changeTableData(this)" ></td>
+                        <td id="s3" class='squareTic' onclick="changeTableData(this)" ></td>
+                  </tr>
+                  <tr>
+                        <td id="s4" class='squareTic' onclick="changeTableData(this)" ></td>
+                        <td id="s5" class='squareTic' onclick="changeTableData(this)" ></td>
+                        <td id="s6" class='squareTic' onclick="changeTableData(this)" ></td>
+                  </tr>
+                  <tr>
+                        <td id="s7" class='squareTic' onclick="changeTableData(this)" ></td>
+                        <td id="s8" class='squareTic' onclick="changeTableData(this)" ></td>
+                        <td id="s9" class='squareTic' onclick="changeTableData(this)" ></td>
+                  </tr>
+               </table>
+               <a style='font-size:20px; font-weight: bold; color: rgb(18, 53, 211); font-family: sans-serif' href="javascript:startGame();">Start Over</a>
+            </div>
+            
+            <!--  -->
+            <script src="ticTacToe.js" charset="utf-8"></script>
+            <!--  -->
+         </div>
+
+      </div>
+   </body>
+</html>
